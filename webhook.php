@@ -46,7 +46,7 @@ function stockPriceIntent() {
 function fallbackIntent() {
     global $requestData;
 
-    $newCard = messageCard("Fallback Intent", "The response for the fallback intent", "https://mobile.apu.edu/images/gmail.jpeg");
+    $newCard = messageCard("Fallback Intent", "The response for the fallback intent", "https://mobile.apu.edu/images/gmail.jpeg", "Button Text", "https://google.com");
     createFulfillmentResponse([
         fulfillmentMessages([
             $newCard
