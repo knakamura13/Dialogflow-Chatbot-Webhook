@@ -9,6 +9,9 @@ $request = file_get_contents('php://input');
 // Convert the raw JSON request to a PHP object.
 $requestData = json_decode($request);
 
+echo "hello";
+
+/*
 // Execute a function depending on the intent from the request.
 $intent = $requestData->queryResult->intent->displayName;
 switch ($intent) {
