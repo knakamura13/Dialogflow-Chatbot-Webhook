@@ -1,0 +1,67 @@
+{
+  "responseId": "3eff0eb9-0260-4087-a071-427db78a417c",
+  "queryResult": {
+    "queryText": "get amazon stock price",
+    "parameters": {
+      "date": "",
+      "stock_company_name": "amazon",
+      "stock_price_type": ""
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            ""
+          ]
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/faq-ohbhud/agent/intents/f423e744-e2d2-43e7-9770-dad92d653dec",
+      "displayName": "Get Stock Price"
+    },
+    "intentDetectionConfidence": 0.91,
+    "diagnosticInfo": {
+      "webhook_latency_ms": 290
+    },
+    "languageCode": "en"
+  },
+  "webhookStatus": {
+    "code": 3,
+    "message": "Webhook call failed. Error: Failed to parse webhook JSON response: null."
+  },
+  "alternativeQueryResults": [
+    {
+      "queryText": "get amazon stock price",
+      "parameters": {},
+      "allRequiredParamsPresent": true,
+      "fulfillmentText": "Fill out this from and be sure to include home.apu.edu upgrade in the subject field. Email support@apu.edu\"",
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              "Fill out this from and be sure to include home.apu.edu upgrade in the subject field. Email support@apu.edu\""
+            ]
+          }
+        }
+      ],
+      "intent": {
+        "name": "projects/faq-ohbhud/agent/intents/ad03611c-80be-40f3-a11e-709fef6385ed",
+        "displayName": "Knowledge.KnowledgeBase.MTY0MjIyMzUzMDM3MTgxNTgzMzY"
+      },
+      "intentDetectionConfidence": 0.4380613,
+      "languageCode": "en",
+      "knowledgeAnswers": {
+        "answers": [
+          {
+            "source": "projects/faq-ohbhud/knowledgeBases/MTY0MjIyMzUzMDM3MTgxNTgzMzY/documents/MTIxMTk1Mzg0NDA5NzQ4OTMwNTY",
+            "answer": "Fill out this from and be sure to include home.apu.edu upgrade in the subject field. Email support@apu.edu\"",
+            "matchConfidenceLevel": "LOW",
+            "matchConfidence": 0.4380613
+          }
+        ]
+      }
+    }
+  ]
+}
